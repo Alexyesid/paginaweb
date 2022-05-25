@@ -1,0 +1,72 @@
+body {
+    background-color: rgb(227, 227, 203);
+}
+
+.site {
+    background: rgb(118, 118, 221);
+    padding: 30 px;
+    display: flex;
+    justify-content: center;
+    text-align: right;
+}
+
+.site2 {
+    padding: 20px;
+    display: flex;
+    justify-content: left;
+
+}
+
+
+h1{
+    color: red;
+}
+
+
+
+.primero {
+    display: inline-block;
+    background: rgb(118, 118, 221);
+    color: grey;
+    padding: 20px 10px;
+}
+
+.primero:hover{
+    background: grey;
+}
+
+
+nav{
+    background: rgb(118, 118, 221);
+    padding: 10px;
+    display: flex;
+    justify-content: right;
+}
+
+footer{
+    background: rgb(118, 118, 221);
+    padding: 20px 10px;
+}
+
+@media (max-width:100px){
+
+    body{
+        flex-direction: column;
+        
+    }
+    nav{
+        background:rgb(118, 118, 221);
+        flex-direction: column;
+
+    }
+}
+
+
+
+.primero{
+    margin: 1px 22px;
+}
+
+.olcutar{
+    display: none;
+}
